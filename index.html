@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="enpt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de medias - Imersao Alura - Aula-1</title>
+
+        <script type="text/javascript" src="JS/index.js"></script>
+
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body>
+        <header>
+
+            <h1>Seja bem vindo a revolucionaria calculadora de medias</h1>
+            <span class="descricao">Essa poderosa calculadora, tem a capacidade de calcular a sua media escolar!</span>
+
+        </header>
+
+        <hr>
+
+        <main>
+
+            <div class="inputs">
+                <table class="inputs-table">                
+                    <tr>
+                        <td>Insira o valor da sua nota do primeiro Bimestre:</td>
+                        <td><input type="number" min="0" max="10" id="primeiro"></td>
+                    </tr>
+                    <tr>
+                        <td>Insira o valor da sua nota do segundo Bimestre:</td>
+                        <td><input type="number" min="0" max="10" id="segundo"></td>
+                    </tr>
+                    <tr>
+                        <td>Insira o valor da sua nota do terceiro Bimestre:</td>
+                        <td><input type="number" min="0" max="10" id="terceiro"> </td>
+                    </tr>
+                    <tr>
+                        <td>Insira o valor da sua nota do quarto Bimestre:</td>
+                        <td><input type="number" min="0" max="10" id="quarto"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="button-container">
+                <button class="btn-calcular" id="calcular"  onclick="calcular()">Calcular Media</button>
+            </div>
+
+            <div class="resultado" id="result">
+                <br><p id="media">Sua media e: X,XX</p></br>
+                <br><p id="status">Voce esta: (status)</p></br>
+            </div>
+
+        </main>
+
+        <hr>
+
+        <footer>
+
+            <h4>
+                Essa calculadora foi desenvolvida por Adriano Siqueira, em 13/9/21, no projeto de Imersao Dev da <a href="https://www.alura.com.br/">Alura</a> 
+            </h4>
+
+        </footer>
+        
+    </body>
+</html>
